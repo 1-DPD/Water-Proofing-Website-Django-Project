@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Dashboard</title>
+
+</head>
+<body>
+    <h1>Welcome to Your Dashboard</h1>
+    <h2>Your Inquiries:</h2>
+    <ul>
+        {% for inquiry in inquiries %}
+        <li>{{ inquiry }}</li>
+        {% endfor %}
+    </ul>
+    <h2>Account Information:</h2>
+    <p>Update your account information here.</p>
+</body>
+</html>
